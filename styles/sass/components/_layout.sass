@@ -1,2 +1,124 @@
+$margin: 0rem 0rem 1.5rem
+  
 html
   font-size: 62.5%
+  font-family: $first_ff
+
+body
+  background-color: $neutral_five
+
+.container
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: 100vh
+
+.card
+  max-width: 90%
+  height: auto
+  border-radius: 5%
+  overflow: hidden
+  background-color: $neutral_four
+  display: flex
+  justify-content: center
+
+.card_container
+  width: 88%
+  margin: 2rem 0rem
+  
+.star_img
+  background-color: rgba($neutral_three, 0.1 )
+  margin: $margin
+  border-radius: 50% 50%
+  display: inline-block
+  .img-container
+    margin: 1.3rem 1.4rem 1.2rem
+    width: 1.5rem
+    img
+      width: 100%
+
+.title
+  margin: $margin
+  color: $neutral_one
+  font-size: 2.5rem
+
+.text 
+  font-size: $first_fs
+  color: $neutral_two
+  line-height: 2.3rem
+  margin: $margin
+
+.survey 
+  width: 100%
+  margin: 0.7rem 0rem 2rem
+  display: inline-flex
+  justify-content: space-between
+  .button-one
+    padding: 1.3rem 1.8rem 1.1rem
+  button
+    color: $neutral_three
+    background-color: rgba($neutral_three, 0.1 )
+    padding: 1.3rem 1.6rem 1.1rem
+    border: none
+    border-radius: 5rem
+    font-size: $first_fs
+    font-weight: 700
+    cursor: pointer
+    &:hover
+      background-color: $primary_color
+      color: $neutral_one
+    &:active
+      background-color: $neutral_two
+
+.submit
+  width: 100%
+  margin-top: 1rem
+  padding: 1.4rem
+  border: none
+  border-radius: 5rem
+  background-color: $primary_color
+  text-transform: uppercase
+  letter-spacing: 0.2rem
+  font-weight: 700
+  color: $neutral_one
+  font-size: 1.4rem
+  margin: $margin
+  cursor: pointer
+  &:hover
+    background-color:  $neutral_one
+    color: $primary_color
+
+.card_two 
+  display: none
+  justify-content: center
+  flex-wrap: wrap
+  font-size: $first_fs
+  .container_img
+    width: 100%
+    display: flex
+    justify-content: center
+    margin-top: 2rem
+    .img_container 
+      width: 50%
+      display: flex
+      justify-content: center
+      img
+        width: 100%
+  .rate
+    background-color: rgba($neutral_three, 0.1 )
+    padding: 1rem 0.8rem 0.8rem
+    border-radius: 5rem
+    color: $primary_color
+    margin: 2.5rem 0rem 2.5rem 
+  .title-two
+    width: 100%
+    text-align: center
+    color: $neutral_one
+    margin: $margin
+    font-size: 2.4rem
+  .text-two
+    margin: $margin
+    color: $neutral_two
+    text-align: center
+    line-height: 2.3rem

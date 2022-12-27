@@ -1,5 +1,148 @@
 html {
   font-size: 62.5%;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: #121417;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  max-width: 90%;
+  height: auto;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #252d37;
+  display: flex;
+  justify-content: center;
+}
+
+.card_container {
+  width: 88%;
+  margin: 2rem 0rem;
+}
+
+.star_img {
+  background-color: rgba(124, 135, 152, 0.1);
+  margin: 0rem 0rem 1.5rem;
+  border-radius: 50% 50%;
+  display: inline-block;
+}
+.star_img .img-container {
+  margin: 1.3rem 1.4rem 1.2rem;
+  width: 1.5rem;
+}
+.star_img .img-container img {
+  width: 100%;
+}
+
+.title {
+  margin: 0rem 0rem 1.5rem;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: #959eac;
+  line-height: 2.3rem;
+  margin: 0rem 0rem 1.5rem;
+}
+
+.survey {
+  width: 100%;
+  margin: 0.7rem 0rem 2rem;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.survey .button-one {
+  padding: 1.3rem 1.8rem 1.1rem;
+}
+.survey button {
+  color: #7c8798;
+  background-color: rgba(124, 135, 152, 0.1);
+  padding: 1.3rem 1.6rem 1.1rem;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.survey button:hover {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+.survey button:active {
+  background-color: #959eac;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1.4rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: #fb7413;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin: 0rem 0rem 1.5rem;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #ffffff;
+  color: #fb7413;
+}
+
+.card_two {
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+.card_two .container_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.card_two .container_img .img_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.card_two .container_img .img_container img {
+  width: 100%;
+}
+.card_two .rate {
+  background-color: rgba(124, 135, 152, 0.1);
+  padding: 1rem 0.8rem 0.8rem;
+  border-radius: 5rem;
+  color: #fb7413;
+  margin: 2.5rem 0rem 2.5rem;
+}
+.card_two .title-two {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0rem 0rem 1.5rem;
+  font-size: 2.4rem;
+}
+.card_two .text-two {
+  margin: 0rem 0rem 1.5rem;
+  color: #959eac;
+  text-align: center;
+  line-height: 2.3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
