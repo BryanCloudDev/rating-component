@@ -30,6 +30,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.card .card_one {
+  position: relative;
+}
 
 .card_container {
   width: 88%;
@@ -91,6 +94,23 @@ body {
 }
 .survey .button-one {
   padding: 1.4rem 2rem;
+}
+
+.error {
+  opacity: 0;
+  position: absolute;
+  top: 29rem;
+  width: 100%;
+  text-align: center;
+  background-color: #f00;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5rem;
+}
+
+.hide {
+  display: none;
 }
 
 .submit {
