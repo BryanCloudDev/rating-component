@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
   font-family: "Overpass", sans-serif;
@@ -16,9 +20,11 @@ body {
 }
 
 .card {
-  max-width: 90%;
+  width: 90%;
+  max-width: 37.57rem;
+  min-width: 33.57rem;
   height: auto;
-  border-radius: 5%;
+  border-radius: 1.5rem;
   overflow: hidden;
   background-color: #252d37;
   display: flex;
@@ -63,25 +69,28 @@ body {
   display: inline-flex;
   justify-content: space-between;
 }
+.survey .button,
 .survey .button-one {
-  padding: 1.3rem 1.8rem 1.1rem;
-}
-.survey button {
   color: #7c8798;
   background-color: rgba(124, 135, 152, 0.1);
-  padding: 1.3rem 1.6rem 1.1rem;
+  padding: 1.4rem 1.8rem;
   border: none;
   border-radius: 5rem;
   font-size: 1.5rem;
   font-weight: 700;
   cursor: pointer;
 }
-.survey button:hover {
+.survey .button:hover,
+.survey .button-one:hover {
   background-color: #fb7413;
   color: #ffffff;
 }
-.survey button:active {
+.survey .button:active,
+.survey .button-one:active {
   background-color: #959eac;
+}
+.survey .button-one {
+  padding: 1.4rem 2rem;
 }
 
 .submit {
@@ -126,7 +135,7 @@ body {
 }
 .card_two .rate {
   background-color: rgba(124, 135, 152, 0.1);
-  padding: 1rem 0.8rem 0.8rem;
+  padding: 1rem 1.3rem 0.8rem;
   border-radius: 5rem;
   color: #fb7413;
   margin: 2.5rem 0rem 2.5rem;
