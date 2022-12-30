@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/nft-component-using-css-and-html-S1GKuaRf9)
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-1H0U21pYyP)
 - Live Site URL: (https://bryanclouddev.github.io/rating-component/)
 
 ## My process
